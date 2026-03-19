@@ -142,7 +142,6 @@ sub run {
 			}
 		}
 
-	say Mojo::Util::dumper(\%width);
 	my $header = sprintf "%-*s", $width{'Repository'}+2, "Repository";
 	foreach my $lang (@lang_order) {
 		$header .= sprintf "%*s  ", $width{$lang}, $lang;

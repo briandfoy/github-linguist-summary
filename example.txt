@@ -1,297 +1,272 @@
-{
-  "C" => 6,
-  "CSS" => 4,
-  "Emacs Lisp" => 10,
-  "HCL" => 3,
-  "HTML" => 5,
-  "Java" => 5,
-  "JavaScript" => 10,
-  "Julia" => 5,
-  "Makefile" => 8,
-  "Perl" => 7,
-  "Perl 6" => 6,
-  "PowerShell" => 10,
-  "Python" => 6,
-  "R" => 3,
-  "Raku" => 5,
-  "Repository" => 55,
-  "Ruby" => 4,
-  "SCSS" => 5,
-  "Shell" => 5,
-  "TeX" => 5,
-  "XS" => 4
-}
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+3xx                                                               0      849       0      0      0    1348      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+Bundle-BDFOY                                                      0     7973       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+Learning-Perl-Sample-Files                                        0     5408       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+LearningPerl6_Downloads                                           0        0       0   4113      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+MyCPAN-Reports                                                    0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+Perl-Bibliography                                                 0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+Perl-Books                                                        0     4684       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+Perl-Interview-Questions                                          0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+Perl-Patterns                                                     0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+PerlPowerTools                                                    0  1221152       0      0      0       0      0      0      0         0     0     0    178     0           0           0      0       0    0    0
 
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+RakuPowerTools                                                    0        0       0  17435      0       0      0      0      0        47     0     0      0     0           0           0      0       0    0    0
+TPR-Articles                                                      0    51398       0      0      0       0      0      0  31842      1038     0     0    511     0           0           0      0     390    0    0
+US_National_Park_Passport_Cancellations                           0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+acme-myfirstmodule-bdfoy                                          0     7987       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+antsy                                                             0    26631       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+app-bcrypt                                                        0    22888       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+app-bgt                                                           0    36416       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+app-bmt                                                           0    71917       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+app-cpan-upgraded                                                 0    61656       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+app-cpaninfo                                                      0    34158       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
 
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-3xx                                                               0      849       0      0      0    1348      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-Bundle-BDFOY                                                      0     7973       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-Learning-Perl-Sample-Files                                        0     5408       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-LearningPerl6_Downloads                                           0        0       0   4113      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-MyCPAN-Reports                                                    0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-Perl-Bibliography                                                 0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-Perl-Books                                                        0     4684       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-Perl-Interview-Questions                                          0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-Perl-Patterns                                                     0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-PerlPowerTools                                                    0  1221152       0      0      0       0      0      0      0         0     0     0    178     0           0           0      0       0    0    0  
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+app-dates                                                         0    11698       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+app-fatpack                                                       0    19690       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+app-grepurl                                                       0    19471       0      0  19861       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+app-ipinfo                                                        0    24958       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+app-irr_rpsl_submit                                               0    15527       0      0      0   24625      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+app-make_perl_symlinks                                            0    11821       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+app-module-lister                                                 0    10060       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+app-ppi-dumper                                                    0    10288       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+app-rhich                                                         0     5641       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+app-rx                                                            0    12867       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
 
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-RakuPowerTools                                                    0        0       0  17435      0       0      0      0      0        47     0     0      0     0           0           0      0       0    0    0  
-TPR-Articles                                                      0    51398       0      0      0       0      0      0  31842      1038     0     0    511     0           0           0      0     390    0    0  
-US_National_Park_Passport_Cancellations                           0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-acme-myfirstmodule-bdfoy                                          0     7987       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-antsy                                                             0    26631       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-app-bcrypt                                                        0    22888       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-app-bgt                                                           0    36416       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-app-bmt                                                           0    71917       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-app-cpan-upgraded                                                 0    61656       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-app-cpaninfo                                                      0    34158       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+app-unichar                                                       0     8208       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+app-url                                                           0    14476       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+big_bs_javascript_repo                                    399782420     2501       0      0      0       0      0      0      0        52     0     0      0     0           0           0      0       0    0    0
+blocked_host_list                                                 0      596       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+blogolicious                                                      0    32135       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+bluebird                                                          0    11971       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+bmtt                                                              0     1051       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+briandfoy                                                         0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+briandfoy.github.io                                               0     8251       0      0  11108       0  63823      0      0      4923     0  5424      0  2280           0           0      0       0    0    0
+brians_cpan_dashboard                                             0     2543       0      0      0       0      0      0      0        65     0     0      0     0           0           0      0       0    0    0
 
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-app-dates                                                         0    11698       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-app-fatpack                                                       0    19690       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-app-grepurl                                                       0    19471       0      0  19861       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-app-ipinfo                                                        0    24958       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-app-irr_rpsl_submit                                               0    15527       0      0      0   24625      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-app-make_perl_symlinks                                            0    11821       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-app-module-lister                                                 0    10060       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-app-ppi-dumper                                                    0    10288       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-app-rhich                                                         0     5641       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-app-rx                                                            0    12867       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+brians_gpx_tools                                                  0     9877       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+brians_guide_to_solving_any_perl_problem                          0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+brians_perl6_modules_appveyor_config                              0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+brians_perl_modules_appveyor_config                               0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+brick                                                             0   266758       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+business-isbn                                                     0    57729       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+business-isbn-data                                                0    59223       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+business-ismn                                                     0    26241       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+business-issn                                                     0    11275       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+cacertorg-ca                                                      0    12059       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
 
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-app-unichar                                                       0     8208       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-app-url                                                           0    14476       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-big_bs_javascript_repo                                    399782420     2501       0      0      0       0      0      0      0        52     0     0      0     0           0           0      0       0    0    0  
-blocked_host_list                                                 0      596       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-blogolicious                                                      0    32135       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-bluebird                                                          0    11971       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-bmtt                                                              0     1051       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-briandfoy                                                         0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-briandfoy.github.io                                               0     8251       0      0  11108       0  63823      0      0      4923     0  5424      0  2280           0           0      0       0    0    0  
-brians_cpan_dashboard                                             0     2543       0      0      0       0      0      0      0        65     0     0      0     0           0           0      0       0    0    0  
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+cache-memcached                                                   0    62839       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+cheatsheets-briandfoy                                             0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+chemistry-elements                                                0    49465       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+clockify                                                          0    60065       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+configreader-simple                                               0    48220       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+cpan-audit                                                        0    70137       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+cpan-critic                                                       0    46790       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+cpan-mini-inject                                                  0    82636       0      0     45       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+cpan-packagedetails                                               0    93103       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+cpan-script                                                       0    50498       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
 
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-brians_gpx_tools                                                  0     9877       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-brians_guide_to_solving_any_perl_problem                          0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-brians_perl6_modules_appveyor_config                              0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-brians_perl_modules_appveyor_config                               0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-brick                                                             0   266758       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-business-isbn                                                     0    57729       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-business-isbn-data                                                0    59223       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-business-ismn                                                     0    26241       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-business-issn                                                     0    11275       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-cacertorg-ca                                                      0    12059       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+cpan-security-advisory                                            0  7027215       0      0      0       0      0      0      0         0     0     0    159     0           0           0      0       0    0    0
+data-constraint                                                   0    18659       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+debugging-perl                                                    0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+devel-trace                                                       0     4715       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+distribution-cooker                                               0    25226       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+distribution-cpanmodules                                          0     4234       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+distribution-guess-buildsystem                                    0    47308       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+doc2png                                                           0     2103       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+double_git_push                                                   0    10328       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+du-curses                                                         0     1899       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
 
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-cache-memcached                                                   0    62839       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-cheatsheets-briandfoy                                             0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-chemistry-elements                                                0    49465       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-clockify                                                          0    60065       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-configreader-simple                                               0    48220       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-cpan-audit                                                        0    70137       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-cpan-critic                                                       0    46790       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-cpan-mini-inject                                                  0    82636       0      0     45       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-cpan-packagedetails                                               0    93103       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-cpan-script                                                       0    50498       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+dumbbench                                                         0    90840       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0  390
+ebird                                                             0    89505       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+envvar-concordance                                                0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+excellent_numbers                                                 0    55808   29187   3129  26999   43351      0      0      0      1358     0     0      0     0        2264           0    948       0    0    0
+fafo                                                              0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+file-find-closures                                                0    29166       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+file-fingerprint                                                  0     8048       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+geo-geonames                                                      0    61464       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+geofences                                                         0     8097       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+ghojo                                                             0   238979       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
 
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-cpan-security-advisory                                            0  7027215       0      0      0       0      0      0      0         0     0     0    159     0           0           0      0       0    0    0  
-data-constraint                                                   0    18659       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-debugging-perl                                                    0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-devel-trace                                                       0     4715       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-distribution-cooker                                               0    25226       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-distribution-cpanmodules                                          0     4234       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-distribution-guess-buildsystem                                    0    47308       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-doc2png                                                           0     2103       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-double_git_push                                                   0    10328       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-du-curses                                                         0     1899       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+git-default-branch                                                0        0       0      0      0       0      0      0      0       475     0     0      0     0           0           0      0       0    0    0
+git-services-commands                                             0    20198       0      0      0       0      0      0      0       943     0     0      0     0           0           0      0       0    0    0
+github-actions-http-tester                                        0      136       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+github_workflows                                                  0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+gnewsio                                                           0    17223       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+hash-asobject                                                     0    17987       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+http-cookies-chrome                                               0    29776       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+http-cookies-mozilla                                              0    18484       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+httpsniffer                                                       0     2442       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+inefficient_century                                               0    11484       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
 
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-dumbbench                                                         0    90840       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0  390  
-ebird                                                             0    89505       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-envvar-concordance                                                0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-excellent_numbers                                                 0    55808   29187   3129  26999   43351      0      0      0      1358     0     0      0     0        2264           0    948       0    0    0  
-fafo                                                              0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-file-find-closures                                                0    29166       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-file-fingerprint                                                  0     8048       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-geo-geonames                                                      0    61464       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-geofences                                                         0     8097       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-ghojo                                                             0   238979       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+io-interactive                                                    0    13814       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+irr_rpsl_submit.py                                                0        0       0      0      0   57406      0      0      0       904     0     0    198     0           0           0      0       0    0    0
+jobs.perl.org-jobs-counter                                        0     3314       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+json-acceptance-tests                                             0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+learning-perl-challenges                                          0     5999       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+lingua-ja-romanize-japanese                                       0    67834       0      0      0       0      0      0      0         0     0     0   1000     0           0           0      0       0    0    0
+log-log4perl-appender-screencoloredlevels-usingmycolors           0     6914       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+mac-errors                                                        0   353056       0      0      0       0      0      0      0       750     0     0      0     0           0           0      0       0    0    0
+mac-osversion                                                     0    24477       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+mac-perl-versions                                                 0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
 
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-git-default-branch                                                0        0       0      0      0       0      0      0      0       475     0     0      0     0           0           0      0       0    0    0  
-git-services-commands                                             0    20198       0      0      0       0      0      0      0       943     0     0      0     0           0           0      0       0    0    0  
-github-actions-http-tester                                        0      136       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-github_workflows                                                  0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-gnewsio                                                           0    17223       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-hash-asobject                                                     0    17987       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-http-cookies-chrome                                               0    29776       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-http-cookies-mozilla                                              0    18484       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-httpsniffer                                                       0     2442       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-inefficient_century                                               0    11484       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+mac-propertylist                                                  0   119724       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+math-nocarry                                                      0    11406       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+mlb_home_games                                                    0     6166       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+module-extract-declaredminimumperl                                0     9779       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+module-extract-declaredversion                                    0     9675       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+module-extract-namespaces                                         0    15805       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+module-extract-use                                                0    21592       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+module-extract-version                                            0    11871       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+module-release                                                    0   127236       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+module-release-git                                                0    25106       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
 
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-io-interactive                                                    0    13814       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-irr_rpsl_submit.py                                                0        0       0      0      0   57406      0      0      0       904     0     0    198     0           0           0      0       0    0    0  
-jobs.perl.org-jobs-counter                                        0     3314       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-json-acceptance-tests                                             0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-learning-perl-challenges                                          0     5999       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-lingua-ja-romanize-japanese                                       0    67834       0      0      0       0      0      0      0         0     0     0   1000     0           0           0      0       0    0    0  
-log-log4perl-appender-screencoloredlevels-usingmycolors           0     6914       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-mac-errors                                                        0   353056       0      0      0       0      0      0      0       750     0     0      0     0           0           0      0       0    0    0  
-mac-osversion                                                     0    24477       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-mac-perl-versions                                                 0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+module-release-verifygpgsignature                                 0     7580       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+module-runtime                                                    0    38547       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+module-starter-addmodule                                          0     7064       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+module_templates                                                  0     3932       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+modulino-demo                                                     0    16517       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+mojo-multi-swagger                                                0     5918       0      0    315       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+mojo-options-test                                                 0     7285       0      0    315       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+mojo-promise-role-higherorder                                     0    18406       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+mojo-ua-test-server                                               0       59       0      0    650       0      0      0      0       862     0     0      0     0           0           0      0       0    0    0
+mojobake                                                          0     3833       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
 
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-mac-propertylist                                                  0   119724       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-math-nocarry                                                      0    11406       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-mlb_home_games                                                    0     6166       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-module-extract-declaredminimumperl                                0     9779       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-module-extract-declaredversion                                    0     9675       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-module-extract-namespaces                                         0    15805       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-module-extract-use                                                0    21592       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-module-extract-version                                            0    11871       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-module-release                                                    0   127236       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-module-release-git                                                0    25106       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+mojolicious-plugin-directory                                      0    15292       0      0    132       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+mojolicious-plugin-directoryserver                                0    17237       0      0    132       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+mojolicious_books                                                 0        0       0      0    220       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+mta_bus_time                                                      0    17614       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+multi_auth_demo                                                   0     2687       0   1612      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+mycpan-app-dpan                                                   0    93037       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+mycpan-indexer                                                    0   371378       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+mynx                                                              0    11231       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+ncarton                                                           0    62531       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+net-publicsuffixlist                                              0    23193       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
 
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-module-release-verifygpgsignature                                 0     7580       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-module-runtime                                                    0    38547       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-module-starter-addmodule                                          0     7064       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-module_templates                                                  0     3932       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-modulino-demo                                                     0    16517       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-mojo-multi-swagger                                                0     5918       0      0    315       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-mojo-options-test                                                 0     7285       0      0    315       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-mojo-promise-role-higherorder                                     0    18406       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-mojo-ua-test-server                                               0       59       0      0    650       0      0      0      0       862     0     0      0     0           0           0      0       0    0    0  
-mojobake                                                          0     3833       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+net-ssh-perl                                                      0   420049  228592      0      0       0      0      0      0         0  6591     0      0     0           0           0      0       0    0    0
+object-iterate                                                    0    16474       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+oreilly-animals                                                   0     2247       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+parnas_decomposition                                              0    11419       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+pause_replay                                                      0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+pausex-log                                                        0    21263       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+pdf-rotate                                                        0      991       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+pegs-pdf                                                          0    23693       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+perl-school-book-template                                         0    80382       0      0      0       0      0      0      0      3177     0     0      0   648           0           0      0     115    0    0
+perl-ssl                                                          0    12691       0      0      0    3018      0      0      0         0     0     0      0     0           0           0      0       0    0    0
 
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-mojolicious-plugin-directory                                      0    15292       0      0    132       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-mojolicious-plugin-directoryserver                                0    17237       0      0    132       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-mojolicious_books                                                 0        0       0      0    220       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-mta_bus_time                                                      0    17614       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-multi_auth_demo                                                   0     2687       0   1612      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-mycpan-app-dpan                                                   0    93037       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-mycpan-indexer                                                    0   371378       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-mynx                                                              0    11231       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-ncarton                                                           0    62531       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-net-publicsuffixlist                                              0    23193       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+perl-version                                                      0   105220       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+perl-warnings-features                                            0     1333       0      0      0       0      0      0      0       180     0     0      0     0           0           0      0       0    0    0
+perl5faq_in_perl6                                                 0        0       0  49926      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+perl6-currentplatform                                             0        0       0   2132      0       0      0      0      0       409     0     0      0     0           0           0      0       0    0    0
+perl6-file-find                                                   0        0       0  11519      0       0      0      0      0        45     0     0      0     0           0           0      0       0    0    0
+perl6_appveyor_test                                               0        0       0    971      0       0      0      0      0        35     0     0      0     0           0           0      0       0    0    0
+perl7faq                                                          0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+perl_book_issues                                                  0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+perlbench                                                     50734   146123       0      0      0       0      0      0      0         0     0     0      0   247           0           0      0       0    0    0
+perlfaq-test                                                      0     4715       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
 
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-net-ssh-perl                                                      0   420049  228592      0      0       0      0      0      0         0  6591     0      0     0           0           0      0       0    0    0  
-object-iterate                                                    0    16474       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-oreilly-animals                                                   0     2247       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-parnas_decomposition                                              0    11419       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-pause_replay                                                      0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-pausex-log                                                        0    21263       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-pdf-rotate                                                        0      991       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-pegs-pdf                                                          0    23693       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-perl-school-book-template                                         0    80382       0      0      0       0      0      0      0      3177     0     0      0   648           0           0      0     115    0    0  
-perl-ssl                                                          0    12691       0      0      0    3018      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+perlrt2github                                                     0   199152       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+pod-perldoc                                                       0   185311       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+pod-perldoc-totoc                                                 0     8920       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+pod-pseudopod-docbook                                             0    36079       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+polyglot                                                          0    10975       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+ppi-app-ppi_version-briandfoy                                     0    15093       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+practical_astronomy                                               0    63521       0      0      0       0      0      0      0       150     0     0      0     0           0           0      0       0    0    0
+raku-PrettyDump                                                   0        0       0  35339      0       0      0      0      0        44     0     0      0     0           0           0      0       0    0    0
+raku-chemistry-elements                                           0        0       0  22434      0       0      0      0      0       410     0     0      0     0           0           0      0       0    0    0
+rakudo-star-chocolatey                                            0    19159       0      0      0       0      0      0      0       342     0     0      0     0           0        2004      0       0    0    0
 
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-perl-version                                                      0   105220       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-perl-warnings-features                                            0     1333       0      0      0       0      0      0      0       180     0     0      0     0           0           0      0       0    0    0  
-perl5faq_in_perl6                                                 0        0       0  49926      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-perl6-currentplatform                                             0        0       0   2132      0       0      0      0      0       409     0     0      0     0           0           0      0       0    0    0  
-perl6-file-find                                                   0        0       0  11519      0       0      0      0      0        45     0     0      0     0           0           0      0       0    0    0  
-perl6_appveyor_test                                               0        0       0    971      0       0      0      0      0        35     0     0      0     0           0           0      0       0    0    0  
-perl7faq                                                          0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-perl_book_issues                                                  0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-perlbench                                                     50734   146123       0      0      0       0      0      0      0         0     0     0      0   247           0           0      0       0    0    0  
-perlfaq-test                                                      0     4715       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+reddit_image_uploader                                             0        0       0      0      0    3325      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+reddit_poster                                                     0     3760       0      0      0       0      0      0      0         0     0     0     76     0           0           0      0       0    0    0
+returnvalue                                                       0     7390       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0  492    0
+ripsail-perl                                                      0     3698       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+roman-unicode                                                     0    18990       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+ruby-exercises                                                    0        0       0      0      0       0      0      0      0         0     0   311      0     0           0           0      0       0    0    0
+santas-reindeers-rx-perl-advent-2024                              0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+scriptdist                                                        0    21918       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+sdl-moon-lander                                                   0     2431       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+set-crossproduct                                                  0    50689       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
 
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-perlrt2github                                                     0   199152       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-pod-perldoc                                                       0   185311       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-pod-perldoc-totoc                                                 0     8920       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-pod-pseudopod-docbook                                             0    36079       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-polyglot                                                          0    10975       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-ppi-app-ppi_version-briandfoy                                     0    15093       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-practical_astronomy                                               0    63521       0      0      0       0      0      0      0       150     0     0      0     0           0           0      0       0    0    0  
-raku-PrettyDump                                                   0        0       0  35339      0       0      0      0      0        44     0     0      0     0           0           0      0       0    0    0  
-raku-chemistry-elements                                           0        0       0  22434      0       0      0      0      0       410     0     0      0     0           0           0      0       0    0    0  
-rakudo-star-chocolatey                                            0    19159       0      0      0       0      0      0      0       342     0     0      0     0           0        2004      0       0    0    0  
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+sort-fields                                                       0    18285       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+sourcecode-linecounter-perl                                       0    20372       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+srpn                                                              0     6586       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+string-redactable                                                 0    15072       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+string-sprintf                                                    0    12765       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+surveyor-app                                                      0    10973       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+surveyor-benchmark-htmlentities                                   0     6811       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+surveyor-benchmark-schwartziantransform-sortfilesbysize           0     6997       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+task-masteringperl                                                0    13483       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+task-mojolearningenvironment                                      0     5353       0      0    153       0      0      0      0         0     0     0   1404     0           0           0      0       0    0    0
 
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-reddit_image_uploader                                             0        0       0      0      0    3325      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-reddit_poster                                                     0     3760       0      0      0       0      0      0      0         0     0     0     76     0           0           0      0       0    0    0  
-returnvalue                                                       0     7390       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0  492    0  
-ripsail-perl                                                      0     3698       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-roman-unicode                                                     0    18990       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-ruby-exercises                                                    0        0       0      0      0       0      0      0      0         0     0   311      0     0           0           0      0       0    0    0  
-santas-reindeers-rx-perl-advent-2024                              0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-scriptdist                                                        0    21918       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-sdl-moon-lander                                                   0     2431       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-set-crossproduct                                                  0    50689       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+test-data                                                         0    37854       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+test-env                                                          0     5819       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+test-file                                                         0   109310       0      0      0       0      0      0      0         0  5480     0      0     0           0           0      0       0    0    0
+test-isbn                                                         0     8443       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+test-manifest                                                     0    20940       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+test-output                                                       0   114417       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+test-prereq                                                       0    22705       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+test-spelling                                                     0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+test-uri                                                          0    14496       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+text-multimarkdown                                                0    93695       0      0  99497       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
 
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-sort-fields                                                       0    18285       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-sourcecode-linecounter-perl                                       0    20372       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-srpn                                                              0     6586       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-string-redactable                                                 0    15072       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-string-sprintf                                                    0    12765       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-surveyor-app                                                      0    10973       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-surveyor-benchmark-htmlentities                                   0     6811       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-surveyor-benchmark-schwartziantransform-sortfilesbysize           0     6997       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-task-masteringperl                                                0    13483       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-task-mojolearningenvironment                                      0     5353       0      0    153       0      0      0      0         0     0     0   1404     0           0           0      0       0    0    0  
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+tie-boundedinteger                                                0     5161       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+tie-cycle                                                         0     7554       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+tie-stringarray                                                   0     7180       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+tie-timely                                                        0     5154       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+tie-toggle                                                        0     5128       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+twiddle-regex                                                     0     6240       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+two-letter-scrabble-sheet                                         0     6748       0      0      0       0      0      0      0       425     0     0      0     0           0           0      0       0    0    0
+unicode-tussle                                                    0  2364702       0      0      0       0      0  42374      0         0     0     0      0     0           0           0      0       0    0    0
+unicode-unihan                                                    0     9921       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+use-perl-org-mojo                                                 0     4130       0      0    315       0      0      0      0        34     0     0      0     0           0           0      0       0    0    0
 
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-test-data                                                         0    37854       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-test-env                                                          0     5819       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-test-file                                                         0   109310       0      0      0       0      0      0      0         0  5480     0      0     0           0           0      0       0    0    0  
-test-isbn                                                         0     8443       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-test-manifest                                                     0    20940       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-test-output                                                       0   114417       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-test-prereq                                                       0    22705       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-test-spelling                                                     0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-test-uri                                                          0    14496       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-text-multimarkdown                                                0    93695       0      0  99497       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-tie-boundedinteger                                                0     5161       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-tie-cycle                                                         0     7554       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-tie-stringarray                                                   0     7180       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-tie-timely                                                        0     5154       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-tie-toggle                                                        0     5128       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-twiddle-regex                                                     0     6240       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-two-letter-scrabble-sheet                                         0     6748       0      0      0       0      0      0      0       425     0     0      0     0           0           0      0       0    0    0  
-unicode-tussle                                                    0  2364702       0      0      0       0      0  42374      0         0     0     0      0     0           0           0      0       0    0    0  
-unicode-unihan                                                    0     9921       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-use-perl-org-mojo                                                 0     4130       0      0    315       0      0      0      0        34     0     0      0     0           0           0      0       0    0    0  
-
-Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R  
-----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -  
-usps-api                                                          0     4447       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-venturi                                                           0        0       0  66218      0       0      0      0      0        97     0     0      0     0           0           0      0       0    0    0  
-webreaper                                                         0    19263       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-webservice-usnationalparkservice                                  0     7088       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-weekly_virtue                                                     0     4183       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-windows-tz-strings                                                0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-wordpress-backups                                                 0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-wordpress-grep                                                    0    25320       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-yaml-module-test                                                  0     4052       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
-z-test-repo                                                       0     4052       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0  
+Repository                                               JavaScript     Perl       C   Raku   HTML  Python   SCSS   Java    TeX  Makefile    XS  Ruby  Shell   CSS  Emacs Lisp  PowerShell  Julia  Perl 6  HCL    R
+----------                                               ----------     ----       -   ----   ----  ------   ----   ----    ---  --------    --  ----  -----   ---  ----- ----  ----------  -----  ---- -  ---    -
+usps-api                                                          0     4447       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+venturi                                                           0        0       0  66218      0       0      0      0      0        97     0     0      0     0           0           0      0       0    0    0
+webreaper                                                         0    19263       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+webservice-usnationalparkservice                                  0     7088       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+weekly_virtue                                                     0     4183       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+windows-tz-strings                                                0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+wordpress-backups                                                 0        0       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+wordpress-grep                                                    0    25320       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+yaml-module-test                                                  0     4052       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0
+z-test-repo                                                       0     4052       0      0      0       0      0      0      0         0     0     0      0     0           0           0      0       0    0    0

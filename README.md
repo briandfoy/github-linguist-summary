@@ -18,10 +18,24 @@ You can adjust what *github-linguist* does by adding hints to *.gitattributes* t
 file. The *github-linguist* program only looks at files committed to the repo, so uncommitted
 changes to *.gitattributes* have no effect.
 
+## Testing locally
+
+Install the *github-linguist* Ruby gem, just not on macOS which is a mess. I
+put it all in a docker container. Run it with `-b` to see how it categorized files:
+
+	% github-linguist -b
+
+Remember that this only looks at the committed version of *.gitattributes*.
+
 ## You're on your own
 
 This is something I threw together in an hour to track down a problem with my GitHub profile.
 If you want to use it, it's probably best that you just steal it and do whatever you want.
+
+## License
+
+This is all under the Artistic License 2.0. There should be a [LICENSE](LICENSE)
+file in the repo. This basically means you can do whatever you want.
 
 ## Further reading
 

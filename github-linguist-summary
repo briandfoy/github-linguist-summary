@@ -19,6 +19,8 @@ github-linguist-summary - make a table of the github-linguist summaries for all 
 
 =head1 DESCRIPTION
 
+I wanted to see a matrix of the [github-linguist](https://github.com/github-linguist/linguist)
+results for all of my repos, so I threw this together.
 
 =head1 SOURCE AVAILABILITY
 

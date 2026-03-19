@@ -4,7 +4,6 @@ use v5.40;
 use List::Util qw(max);
 use Mojo::File;
 use Mojo::JSON qw(decode_json encode_json);
-use Mojo::UserAgent;
 
 __PACKAGE__->run unless caller;
 
@@ -85,6 +84,7 @@ sub get_token { $ENV{'GITHUB_TOKEN'} }
 
 sub get_ua {
 	state $ua = do {
+		state $rc = require Mojo::UserAgent;
 		state $ua = Mojo::UserAgent->new;
 		$ua->on(start => sub {
 			my ($ua, $tx) = @_;

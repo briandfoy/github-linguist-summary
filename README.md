@@ -4,7 +4,7 @@ I wanted to see a matrix of the [github-linguist](https://github.com/github-ling
 results for all of my repos, so I threw this together.
 
 	% cpan Mojolicious   # the only Perl thing you need
-	% perl github-linguist-summary
+	% env GITHUB_USER=... GITHUB_TOKEN=... perl github-linguist-summary
 
 The first time you call this, or after you delete the JSON cache file in the run
 directory, this grabs a ton of data from GitHub.

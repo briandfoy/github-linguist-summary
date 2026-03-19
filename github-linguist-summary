@@ -1,0 +1,164 @@
+#!/usr/bin/env perl
+use v5.40;
+
+use List::Util qw(max);
+use Mojo::File;
+use Mojo::JSON qw(decode_json encode_json);
+use Mojo::UserAgent;
+
+__PACKAGE__->run unless caller;
+
+=encoding utf8
+
+=head1 NAME
+
+github-linguist-summary - make a table of the github-linguist summaries for all my repos
+
+=head1 SYNOPSIS
+
+	% env GITHUB_USER=... GITHUB_TOKEN=... github-linguist-summary
+
+=head1 DESCRIPTION
+
+
+=head1 SOURCE AVAILABILITY
+
+This module is on Github:
+
+	https://github.com/briandfoy/tie-cycle
+
+=head1 AUTHOR
+
+brian d foy, C<< <briandfoy@pobox.com> >>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright © 2025-2026, brian d foy C<< <briandfoy@pobox.com> >>. All rights reserved.
+This software is available under the Artistic License 2.0.
+
+=cut
+
+sub api_base {
+	state $url = Mojo::URL->new('https://api.github.com/');
+	$url->clone;
+	}
+
+sub get_data {
+	state $file = 'github-linguist-summary.json';
+	my $all = do {
+		if( -e $file ) {
+			say STDERR "Using cached file";
+			decode_json( Mojo::File->new($file)->slurp );
+			}
+		else {
+			say STDERR "Fetching from GitHub";
+			my $all = get_data_from_github();
+			Mojo::File->new($file)->spew( encode_json($all) );
+			$all;
+			}
+		};
+	}
+
+sub get_data_from_github {
+	my $repos = get_user_repos();
+	my %all_languages;
+
+	foreach my $repo ($repos->@*) {
+		next if $repo->{'fork'};
+		print "Fetching languages for $repo->{'name'}...\n";
+		my $langs = get_repo_languages($repo->{'name'});
+		next unless keys $langs->%*;
+		$all_languages{$repo->{'name'}} = $langs;
+		}
+
+	\%all_languages;
+	}
+
+sub get_repo_languages {
+    my $url = api_base()->clone->path( sprintf 'repos/%s/%s/languages', get_user(), $_[0] );
+    my $tx  = get_ua()->get($url)->result;
+    die "Failed to fetch languages for $_[0]: " . $tx->message unless $tx->is_success;
+    return $tx->json;
+	}
+
+sub get_token { $ENV{'GITHUB_TOKEN'} }
+
+sub get_ua {
+	state $ua = do {
+		state $ua = Mojo::UserAgent->new;
+		$ua->on(start => sub {
+			my ($ua, $tx) = @_;
+			$tx->req->headers->authorization("token $ENV{'GITHUB_TOKEN'}");
+			$tx->req->headers->accept('application/vnd.github.v3+json');
+		});
+		$ua;
+		};
+	$ua;
+	}
+
+sub get_user { $ENV{'GITHUB_USER'} }
+
+sub get_user_repos {
+    my $url = api_base()->clone->path( sprintf "users/%s/repos", get_user() );
+
+    my @repos;
+    while (1) {
+		state $page = 1;
+        my $query = {
+        	per_page => 100,
+        	page     => $page++,
+        	};
+        my $tx  = get_ua()->get($url => form => $query)->result;
+        die "Failed to fetch repos: " . $tx->message unless $tx->is_success;
+        my $data = $tx->json;
+        last unless $data->@*;
+        push @repos, $data->@*;
+    	}
+
+    return \@repos;
+	}
+
+sub run {
+	my $all = get_data();
+
+	my %all_seen;
+	my %width;
+	$width{'Repository'} = max( map { length } ('Repository', keys $all->%*) );
+
+	foreach my $hash ( values $all->%* ) {
+		foreach my $lang ( keys $hash->%* ) {
+			$all_seen{$lang} += $hash->{$lang};
+			$width{$lang} = length($lang);
+			}
+		}
+
+	my @lang_order = sort { $all_seen{$b} <=> $all_seen{$a} } keys %all_seen;
+
+	foreach my $repo_name (keys $all->%* ) {
+		my $langs = $all->{$repo_name};
+		for my $lang (@lang_order) {
+			my $val = $langs->{$lang} // 0;
+			$width{$lang} = length($val) if length($val) > $width{$lang};
+			}
+		}
+
+	say Mojo::Util::dumper(\%width);
+	my $header = sprintf "%-*s", $width{'Repository'}+2, "Repository";
+	foreach my $lang (@lang_order) {
+		$header .= sprintf "%*s  ", $width{$lang}, $lang;
+		}
+	my $ruler = $header =~ s/\w/-/gr;
+	$header .= "\n$ruler";
+
+	foreach my $repo_name (sort keys $all->%*) {
+		state $lines = 0;
+		say "\n" . $header unless $lines++ % 10;
+
+		printf "%-*s", $width{'Repository'}+2, $repo_name;
+		my $langs = $all->{$repo_name};
+		foreach my $lang (@lang_order) {
+			printf "%*s  ", $width{$lang}, $langs->{$lang} // 0;
+			}
+		print "\n";
+		}
+	}
